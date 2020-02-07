@@ -14,7 +14,7 @@ http.createServer(function (request, response) {
     response.write("<h1>Hello routes</h1>");
     response.write("<a href='/helloworld'>Go To Hello Routes\n</a>");
   } else if(request.url === "/") {
-    response.write("<h1>TOIMII???</h1>")
+    response.write("<h1>Toimiiko?</h1>")
     response.write("<a href='/helloroutes'>Go To Hello Routes\n</a>");
     response.write(`
       <table>

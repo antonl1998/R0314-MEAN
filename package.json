@@ -493,6 +493,7 @@
       "resolved": "https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz",
       "version": "0.1.2"
     },
+    "ejs": "^3.0.1",
     "end-of-stream": {
       "integrity": "sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==",
       "requires": {

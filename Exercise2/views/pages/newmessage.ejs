@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include ("../partials/head") %>
+
+<body class="container">
+    <%- include ("../partials/header") %>
+    <main>
+        <div class="jumbotron">
+        </div>
+        <form method="POST" action="/newmessage">
+            <label for="username">Username: </label>
+            <input type="text" name="username" class="form-control" id="username">
+            <label for="country">Country: </label>
+            <input type="text" name="country" class="form-control" id="country">
+            <label for="message">Message: </label>
+            <input type="text" name="message" class="form-control" id="message">
+            <br>
+            <button type="submit" id="button1" class="btn btn-primary">Submit </button>
+        </form>
+    </main>
+    <%- include ("../partials/footer") %>
+</body>
+
+</html>
